@@ -1,3 +1,4 @@
+import Section from "./components/Section";
 import Styled from "styled-components";
 
 const Container = Styled.div`
@@ -10,7 +11,9 @@ align-items: center;
 function App() {
   return (
     <Container>
-      <p>welcome</p>
+      <Section>
+        <p>welcome</p>
+      </Section>
     </Container>
   );
 }
