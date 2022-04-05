@@ -1,11 +1,17 @@
-import "./App.css";
+import Styled from "styled-components";
+
+const Container = Styled.div`
+display: flex;
+justify-content: center;
+height:100%;
+align-items: center;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <p>welcome</p>
-    </div>
+    </Container>
   );
 }
-
 export default App;
